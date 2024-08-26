@@ -96,6 +96,6 @@ When('the user navigates back to the home page', () => {
 
 // And the user logs out
 When('the user logs out', () => {
-  cy.get('#menu_button_container').click()
+  cy.get('#react-burger-menu-btn').click()
   cy.get('#logout_sidebar_link').click()
 })
