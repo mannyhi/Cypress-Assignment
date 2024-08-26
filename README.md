@@ -4,6 +4,19 @@
 
 This project contains automated tests for the Sauce Demo website using Cypress and Cucumber. The tests cover various scenarios including login, cart management, and checkout processes.
 
+## Folders/Files Structure
+
+Cypress Assignment/
+├── cypress/
+│   ├── e2e/
+│   │   ├── login.feature
+│   │   └── step_definitions/
+│   │       └── loginSteps.js
+│   ├── fixtures/
+│   │   └── testData.csv
+├── cypress.config.js
+└── (other files and folders)
+
 ## Features
 
 - Cypress for end-to-end testing
